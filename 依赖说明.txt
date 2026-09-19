@@ -1,0 +1,8 @@
+要装的第三方库只有这一套：github.com/longbridgeapp/opencc
+版本钉死 v0.3.13。
+转换配置名是 t2s，意思是繁体转到简体。
+在仓库根目录执行 go get github.com/longbridgeapp/opencc@v0.3.13
+不要换成 github.com/liuzl/gocc，也不要换成别的繁简库。
+这套库会自己带上它需要的小依赖，那些留着，不要再额外装别的库。
+字典在库里面，不要再下载数据包。
+不要写 Dockerfile、docker-compose 或其他容器文件。
